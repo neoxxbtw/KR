@@ -1,5 +1,5 @@
 html, body, div, span, ul, li, footer, header, hgroup, 
-menu, nav, output, section, h1, h2, h3 {
+menu, nav, output, section, h1, h2, h3, p {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -199,10 +199,12 @@ header p {
     display: flex;
     flex-direction: column;
     justify-content: end;
+
 }
 
 .about__content-right img {
     display: block;
+    margin-right: 28px;
 }
 
 .menu{
@@ -389,6 +391,203 @@ menu h3{
 
 }
 
-.devivery{
+.delivery{
     margin-bottom: 150px;
 }
+
+.reviews{
+    margin-bottom: 150px;
+}
+
+.reviews h2 {
+    font-family: 'Oceanic';
+    font-size: 56px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    
+}
+
+.reviews h2 span {
+    font-size: 12px;
+    font-family: 'Gilroy';
+    font-weight: 300;
+    margin-right: 150px;
+    display: inline-block;
+}
+
+.reviews__list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.review__item{
+    width: 180px;
+    height: 260px;
+}
+.review__item img{
+    width: 180px;
+    height: 260px;
+}
+
+.reviews__title{
+    text-align: center;
+    position: relative;
+    margin-bottom: 40px;
+}
+.reviews__title p{
+    width: 385px;
+    font-size: 18px;
+    line-height: 21.6px;
+    font-family: 'Gilroy';
+    text-align: left;
+    font-weight: 400;
+    display: inline-block;
+}
+
+.reviews__title::before{
+    content: '';
+    position: absolute;
+    right: 61px;
+    bottom: 0;
+    background-image: url(../img/Vector.svg);
+    width: 6.71px;
+    height: 13.31px;
+}
+
+.reviews__title::after{
+    content: '';
+    position: absolute;
+    right: 0px;
+    bottom: 0;
+    background-image: url(../img/Vector.svg);
+    transform: rotate(180deg);
+    width: 6.71px;
+    height: 13.31px;
+}
+
+.sales{
+    margin-bottom: 195px;
+}
+
+
+.sales h2 {
+    font-family: 'Oceanic';
+    font-size: 56px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    
+}
+
+.sales h2 span {
+    font-size: 12px;
+    font-family: 'Gilroy';
+    font-weight: 300;
+    margin-right: 120px;
+    display: inline-block;
+}
+
+.booking{
+    margin-bottom: 150px;
+}
+
+.booking__content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.booking__content{
+    display: flex;
+
+}
+
+.booking h2 {
+    font-family: 'Oceanic';
+    font-size: 56px;
+    font-weight: 500;
+    margin-bottom: 40px;   
+}
+
+.booking h2 span {
+    font-size: 12px;
+    font-family: 'Gilroy';
+    font-weight: 300;
+    margin-right: 120px;
+    display: inline-block;
+}
+
+.booking__form{
+    width: 590px;
+}
+
+.booking__form label{
+    font-size: 18px;
+    font-family: 'Gilroy';
+    font-weight: 400;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.booking__form input{
+    background-color: transparent;
+    border: 1px solid #E8EDFF
+}
+
+.input__wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input__wrapper-double input{
+    width: 285px;
+}
+
+input{
+    height: 60px;
+    padding-left: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-right: 20px;
+    color: #E8EDFF;
+    font-size: 18px;
+    font-family: 'Gilroy';
+    font-weight: 400;
+}
+
+.input__wrapper:last-child{
+    margin-right: 0;
+}
+
+.last{
+    margin-right: 0 !important;
+}
+
+.input__wrapper-triple input{
+    width: 183px;
+}
+
+textarea{
+    resize: none;
+    height: 177px;
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid #E8EDFF;
+    color: #E8EDFF;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: 'Gilroy';
+    margin-bottom: 36px;
+}
+
+button{
+    background-color: #E9663D;
+    color: #E8EDFF;
+    border: none;
+    font-family: 'Gilroy';
+    width: 100%;
+    height: 74px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
