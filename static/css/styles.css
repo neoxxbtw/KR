@@ -1,11 +1,11 @@
 html, body, div, span, ul, li, footer, header, hgroup, 
 menu, nav, output, section, h1, h2, h3 {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
 
 body {
@@ -17,7 +17,7 @@ body {
 
 }
 ul {
-  list-style: none;
+	list-style: none;
 }
 
 
@@ -322,4 +322,73 @@ menu h3{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+}
+
+.delivery h2 {
+    font-family: 'Oceanic';
+    font-size: 56px;
+    font-weight: 500;
+    margin-bottom: 74px;
+    
+}
+
+.delivery h2 span {
+    font-size: 12px;
+    font-family: 'Gilroy';
+    font-weight: 300;
+    margin-right: 120px;
+    display: inline-block;
+}
+
+.delivery__content{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.delivery__content-image{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.delivery__content-item{
+    width: 320px;
+}
+
+.delivery__item-number{
+    font-family: 'Oceanic';
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.delivery__item-title{
+    font-family: 'Oceanic';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.8px;
+}
+.delivery__content-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 430px;
+}
+
+.delivery__content-item p{
+    font-size: 18px;
+    font-family: 'Gilroy';
+    font-weight: 400;
+}
+
+.delivery__content-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 430px;
+
+}
+
+.devivery{
+    margin-bottom: 150px;
 }
