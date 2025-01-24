@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Oceanic';
+    font-weight: 700;
+    src:
+        url('../../fonts/oceanic-font-family/TRIAL_Oceanic-Bold-BF6487cfe5cfe3d.otf') format("opentype");
+}
+
+
+@font-face {
+    font-family: 'Oceanic';
+    font-weight: 400;
+    src:
+        url('../../fonts/oceanic-font-family/TRIAL_Oceanic-Regular-BF6487cfe600a81.otf') format("opentype");
+}
+
+@font-face {
+    font-family: 'Oceanic';
+    font-weight: 500;
+    src:
+        url('../../fonts/oceanic-font-family/TRIAL_Oceanic-Medium-BF6487cfe5e2078.otf') format("opentype");
+}
+
+@font-face {
+    font-family: 'Oceanic';
+    font-weight: 800;
+    src:
+        url('../../fonts/oceanic-font-family/TRIAL_Oceanic-Extrabold-BF6487cfe5e8eff.otf') format("opentype");
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../../fonts/Gilroy-2/Gilroy-ExtraBold.otf');
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../../fonts/Gilroy-2/Gilroy-Light.otf');
+    font-weight: 400;
+}

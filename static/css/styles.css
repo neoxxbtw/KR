@@ -1,0 +1,166 @@
+/* Сброс стилей для используемых элементов */
+html, body, div, span, h1, h2, h3, p, a, img, ul, li, button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body {
+    background-color: #011845;
+    font-family: 'Gilroy';
+    color: #E8EDFF;
+    position: relative;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    
+}
+
+h1{
+    font-size: 80px;
+    font-family: 'Oceanic TRIAL Medium';
+    font-weight: bold;
+}
+
+.sphere {
+    position: absolute;
+    top: -350px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+nav button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-family: 'Gilroy';
+    font-weight: normal;
+}
+
+.nav__logo {
+    font-family: 'Oceanic';
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.nav__items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__list {
+    display: flex;
+}
+
+.nav__list li {
+    margin-right: 46px;
+}
+
+.nav__list li:last-child {
+    margin-right: 0;
+}
+
+.header {
+    margin-bottom: 185px;
+}
+
+.header__content {
+    background-image: url('../img/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 689px;
+    max-height: 689px;
+    background-position: center center;
+    margin-bottom: 300px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.header__content-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__block {
+    bottom: 0;
+    font-family: 'Gilroy';
+}
+
+.header__title {
+    font-size: 80px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.header__left a {
+    font-family: 'Gilroy';
+    color: #fff;
+    font-size: 24px;
+    font-weight: 300;
+    padding: 20px 109px;
+    background-color: #E9663D;
+}
+
+header p {
+    font-family: 'Gilroy';
+    font-size: 18px;
+    font-weight: 400;
+    width: 370px;
+    margin-bottom: 70px;
+    line-height: 25.2px;
+}
+
+.header__right {
+    text-align: right;
+}
+
+.header__right li {
+    display: flex;
+    margin-bottom: 30px;
+    width: 387px;
+}
+
+.header__right li img {
+    margin-right: 24px;
+}
+
+.header__right .header__title {
+    text-align: right;
+}
+
