@@ -1,11 +1,11 @@
 html, body, div, span, ul, li, footer, header, hgroup, 
 menu, nav, output, section, h1, h2, h3 {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
 body {
@@ -17,7 +17,7 @@ body {
 
 }
 ul {
-	list-style: none;
+  list-style: none;
 }
 
 
@@ -205,3 +205,121 @@ header p {
     display: block;
 }
 
+.menu{
+    margin-bottom: 150px;
+}
+
+.menu h2 {
+    font-family: 'Oceanic';
+    font-size: 56px;
+    font-weight: 500;
+    margin-bottom: 74px;
+    
+}
+
+.menu h2 span {
+    font-size: 12px;
+    font-family: 'Gilroy';
+    font-weight: 300;
+    margin-right: 120px;
+    display: inline-block;
+}
+
+menu h3{
+    font-family: 'Oceanic';
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.menu__item{
+    display: flex;
+    background-color: #496192;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.menu__item-title{
+    font-size: 36px;
+    font-family: 'Oceanic';
+    font-weight: 400;
+}
+
+.menu__item-text{
+    width: 386px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.menu__item-text p{
+    font-family: 'Gilroy';
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 21.6px;
+}
+
+.menu__item-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.menu__item-price{
+    font-size: 18px;
+    font-weight: 600;
+}
+.menu__item-mass{
+    font-size: 12px;
+}
+
+.menu__button{
+    background-color: #E9663D;
+    padding: 20px 48px;
+    display: inline-block;
+}
+
+
+.menu__content{
+    position: relative;
+}
+.menu__item-img{
+    position: absolute;
+    right: 103px;
+    top: -45px;
+}
+
+.menu__content::before{
+    content: '';
+    position: absolute;
+    left: 37.3px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-image: url(../img/Vector.svg);
+    width: 6.71px;
+    height: 13.31px;
+}
+
+.menu__content::after{
+    content: '';
+    position: absolute;
+    right: 37.3px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-image: url(../img/Vector.svg);
+    width: 6.71px;
+    height: 13.31px;
+    transform: rotate(-180deg);
+}
+.menu__navigate-wrapper{
+    text-align: center;
+}
+.menu__navigate{
+    display: inline-block;
+    margin-top: 75px;
+    padding: 22px 53px;
+    font-size: 24px;
+    border: 1px solid #E8EDFF;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
