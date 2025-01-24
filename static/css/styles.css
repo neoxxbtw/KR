@@ -1,21 +1,11 @@
-/* Сброс стилей для используемых элементов */
-html, body, div, span, h1, h2, h3, p, a, img, ul, li, button {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-}
-
-ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+html, body, div, span, ul, li, footer, header, hgroup, 
+menu, nav, output, section, h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
 
 body {
@@ -24,20 +14,12 @@ body {
     color: #E8EDFF;
     position: relative;
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-    
+
+}
+ul {
+	list-style: none;
 }
 
-h1{
-    font-size: 80px;
-    font-family: 'Oceanic TRIAL Medium';
-    font-weight: bold;
-}
 
 .sphere {
     position: absolute;
@@ -58,7 +40,7 @@ a {
 
 nav {
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 70px;
 }
 
 nav button {
@@ -83,6 +65,7 @@ nav button {
 
 .nav__list {
     display: flex;
+
 }
 
 .nav__list li {
@@ -93,15 +76,15 @@ nav button {
     margin-right: 0;
 }
 
-.header {
+
+.header{
     margin-bottom: 185px;
 }
-
 .header__content {
     background-image: url('../img/banner.png');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 689px;
+    height: 615px;
     max-height: 689px;
     background-position: center center;
     margin-bottom: 300px;
@@ -118,6 +101,7 @@ nav button {
 }
 
 .header__block {
+    /* position: absolute; */
     bottom: 0;
     font-family: 'Gilroy';
 }
@@ -160,7 +144,64 @@ header p {
     margin-right: 24px;
 }
 
+
 .header__right .header__title {
     text-align: right;
+}
+
+.about{
+    margin-bottom: 140px;
+}
+
+.about h2 {
+    font-family: 'Oceanic';
+    font-size: 56px;
+    font-weight: 500;
+    margin-bottom: 54px;
+    
+}
+
+.about h2 span {
+    font-size: 12px;
+    font-family: 'Gilroy';
+    font-weight: 300;
+    margin-right: 120px;
+    display: inline-block;
+}
+
+.about__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__content-left {
+    width: 40%;
+    font-size: 18px;
+    line-height: 25px;
+
+}
+
+.about a {
+    background-color: #011845;
+    border: 1px solid #E8EDFF;
+    color: #E8EDFF;
+    padding: 20px 59px;
+}
+.a__wrapper{
+    box-sizing: border-box;
+    margin-top: 113px;
+    background-color: #011845;
+}
+.about p{
+    margin-bottom: 30px;
+}
+.about__content-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.about__content-right img {
+    display: block;
 }
 
